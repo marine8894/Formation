@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>EXERCICE4</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="test.css">
+        <!--<script src="Exercice4.js" type="text/javascript" async></script>-->
+        <!--<h1 id="paragraphe_Grand2">On veut connaitre la moyenne des notes ... (script dans le head)</h1>
+        <p>DC1 : <input id="dc1" name="dc1" type="number"></p>
+        <p>DC2 : <input id="dc2" name="dc2" type="number"></p>
+        <p>DS : <input id="ds" name="ds" type="number"></p>
+        <button id="bouton">Calculer la moyenne</button>
+		<script>
+            const bouton = document.getElementById("bouton");
+            const Moyenne = () => {
+                var dc1 = document.getElementById("dc1").value;
+                var dc2 = document.getElementById("dc2").value;
+                var ds = document.getElementById("ds").value;
+                var moyenne = (parseInt(dc1) + parseInt(dc2) + parseInt(ds))/3;
+                alert("La moyenne des notes est de : " + moyenne);
+            }
+            bouton.addEventListener('click', function() {
+                Moyenne();
+            });
+		</script> -->
+	</head>
+	<body id="body">
+        <h1 id="paragraphe_Grand">On veut connaitre la moyenne des notes ... (script dans le body)</h1>
+        <p>DC1 : <input id="dc1" name="dc1" type="number"></p>
+        <p>DC2 : <input id="dc2" name="dc2" type="number"></p>
+        <p>DS : <input id="ds" name="ds" type="number"></p>
+        <button id="bouton">Calculer la moyenne</button>
+        <script>
+
+            const bouton = document.getElementById("bouton");
+            
+            const Moyenne = () => {
+                var dc1 = document.getElementById("dc1").value;
+                var dc2 = document.getElementById("dc2").value;
+                var ds = document.getElementById("ds").value;
+                var moyenne = (parseInt(dc1) + parseInt(dc2) + parseInt(ds))/3;
+                alert("La moyenne des notes est de : " + moyenne);
+            }
+
+            bouton.addEventListener('click', function() {
+                Moyenne();
+            });
+                
+            
+		</script>
+	</body>
+</html>
