@@ -1,0 +1,125 @@
+body
+{
+	background-color: rgb(245, 194, 194)  ;
+
+}
+
+p
+{
+	font-size : 13px;
+	font-family : arial;
+	display: inline-block; /* par défaut va venir placer les blocks cote a cote*/
+	vertical-align: top;
+}
+
+fieldset
+{
+	display : flex;
+	flex-direction: column;
+	font-family: arial;
+	margin-left : 100px;
+	margin-right: 100px;
+}
+
+h1
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+.bouton
+{
+	text-align : center;
+}
+
+h3
+{
+	font-size: 10px;
+	text-align:right;
+	margin-right: 100px;
+}
+
+input
+{
+	font-family: arial;
+	display : inline-block;
+	vertical-align: top;
+}
+
+label
+{
+	font-family: arial;
+	width : 150px;
+	display : inline-block;
+	flex-direction: space-around;
+	vertical-align: top;
+	overflow: visible;
+}
+div
+{
+	font-family: arial;
+	display : inline-block;
+	vertical-align: top;
+}
+
+nav
+{
+	color : white;
+	font-family: arial;
+	font-size: 14px;
+	position : sticky;
+	top :0%;
+	float : none;
+}
+
+li
+{
+	color:white;
+	height : 54px ;
+	width : 312px;
+	background: url(fond_HTML-Exo2_png.png);
+	background-repeat: no-repeat;
+	text-align: left;
+	padding-left: 70px;
+	float : none;
+}
+
+nav a
+{
+	display : block;
+	text-decoration: none;
+	color : white;
+	border-bottom: 0px solid transparent;
+	padding : 20px 0px;
+	float : none;
+}
+
+
+
+.sous
+{
+
+	display : none;
+	float : left;
+	position : absolute ;
+}
+
+.sous li
+{
+	float : none;
+	text-align: left;
+	padding-left: 70px;
+	margin-left: -110px;
+
+}
+
+.sous li a:active
+{
+	color : #666666;
+}
+
+nav > ul li:hover .sous
+{
+	color : blue;
+	display : block;
+}

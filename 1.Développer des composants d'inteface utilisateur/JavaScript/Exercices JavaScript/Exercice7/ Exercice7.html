@@ -1,0 +1,62 @@
+<head>
+    <title>EXERCICE7</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="Exercice7CSS.css">
+    <script src="Exercice7JS.js" type="text/javascript" async></script>
+
+</head>
+<body id="body">
+    <h1>Inscriptions</h1>
+<form method="post" action=""> 
+    <fieldset>
+        <div>
+            <label for = "NOMPrenom">Nom et Prénom : *</label> 
+            <input type="text" name="nom & prenom" id="NOMPrenom" size="30", maxlength="30" required />
+        </div>
+        </br>
+        <div>
+            <label for = "CIN">CIN : *</label> 
+            <input type="number" name="CIN" id="CIN" size="8" maxlength="8" required />
+        </div>
+        </br>
+        <div>
+            <label for = "email">Adresse e-mail : *</label> 
+            <input type="email" name="email" id="email" required />
+        </div>
+        </br>
+        <div>
+            <label> Niveau</label> 
+            <div>
+                <input type="radio" name="niveau" value="Secondaire" checked=""/> <label for = "secondaire" > Secondaire</label>
+            </div>
+            <div>
+                <input type="radio" name="niveau" value="Universitaire"/> <label for = "universitaire"> Universitaire</label>
+            </div>
+            <div>
+                <input type="radio" name="niveau" value="autre"/> <label for = "autre"> Autre</label>
+            </div>
+        </div>
+        <br/>
+        <div>
+            <label for="pays">Modules de formation</label>
+            <select multiple="2" name="modules" id="modules">
+                <option value="Bureautique">Bureautique</option>
+                <option value="SEetRes">SE et Réseaux info.</option>
+                <option value="TIC">TIC</option>
+            </select>
+        </div>
+        <br/>
+        <h3>(*) Champs obligatoires.</h3>
+        <br/>
+
+        <div class="bouton"> 
+            <button id="envoyer" type="submit" value="Envoyer">Envoyer</button>
+            <button id="annuler" type="reset" value="Annuler">Annuler</button>
+         </div>
+    </fieldset>
+
+</form>
+
+   
+</body>
+</html>
